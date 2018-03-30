@@ -3,7 +3,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    return "Resource test"
+    return "Network test to Project1"
 
 if __name__ == "__main__":
     application.run()
